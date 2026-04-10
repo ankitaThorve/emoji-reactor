@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #040228;
+  color: #efefef;
+  font-family: sans-serif;
+}
+
 main {
   text-align: center;
   padding: 10px;
@@ -23,7 +29,7 @@ button {
 .emoji-btn {
   width: 70%;
   cursor: pointer;
-  color: white;
+  color: #ffffff;
   background-color: #a78bfa;
   background-image: linear-gradient(to bottom, #c4b5fd, #a78bfa);
   border: 3px solid #8b5cf6;
