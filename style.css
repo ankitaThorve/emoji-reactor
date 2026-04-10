@@ -9,17 +9,18 @@ main {
   padding: 10px;
 }
 
-.btn-container, button {
+.btn-container,
+button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.btn-container{
+.btn-container {
   flex-direction: column;
 }
 
-.emoji-btn{
+.emoji-btn {
   width: 70%;
   cursor: pointer;
   color: white;
@@ -30,5 +31,28 @@ main {
   padding: 10px;
   font-size: 1.5rem;
   margin: 10px 0;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+@media (min-width: 768px) {
+  .emoji-btn {
+    width: 30%;
+  }
+}
+
+.emoji-btn:hover {
+  background-color: #8b5cf6;
+  background-image: none;
+}
+
+.title {
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+.description {
+  font-size: 1.4rem;
+  margin: 20px 0;
 }
