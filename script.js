@@ -13,3 +13,24 @@ const happyBtn = document.querySelector("#happy-btn");
 happyBtn.addEventListener("click", () => {
   updateCount(happyBtn);
 });
+
+const confusedBtn = document.querySelector("#confused-btn");
+
+confusedBtn.addEventListener("click", () => {
+  updateCount(confusedBtn);
+});
+
+const sadBtn = document.querySelector("#sad-btn");
+
+sadBtn.addEventListener("click", () => {
+  updateCount(sadBtn);
+});
+
+const lovingBtn = document.querySelector("#loving-btn");
+
+lovingBtn.addEventListener("click", () => {
+  updateCount(lovingBtn);
+});
+
+
+
