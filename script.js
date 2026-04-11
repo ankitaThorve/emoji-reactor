@@ -8,29 +8,28 @@ function updateCount(happyBtn) {
   countElement.textContent = `${currCount}/10`;
 }
 
-const happyBtn = document.querySelector("#happy-btn");
+const btns = document.querySelectorAll(".emoji-btn");
 
-happyBtn.addEventListener("click", () => {
-  updateCount(happyBtn);
-});
+// const happyBtn = document.querySelector("#happy-btn");
 
-const confusedBtn = document.querySelector("#confused-btn");
+// happyBtn.addEventListener("click", () => {
+//   updateCount(happyBtn);
+// });
 
-confusedBtn.addEventListener("click", () => {
-  updateCount(confusedBtn);
-});
+// const confusedBtn = document.querySelector("#confused-btn");
 
-const sadBtn = document.querySelector("#sad-btn");
+// confusedBtn.addEventListener("click", () => {
+//   updateCount(confusedBtn);
+// });
 
-sadBtn.addEventListener("click", () => {
-  updateCount(sadBtn);
-});
+// const sadBtn = document.querySelector("#sad-btn");
 
-const lovingBtn = document.querySelector("#loving-btn");
+// sadBtn.addEventListener("click", () => {
+//   updateCount(sadBtn);
+// });
 
-lovingBtn.addEventListener("click", () => {
-  updateCount(lovingBtn);
-});
+// const lovingBtn = document.querySelector("#loving-btn");
 
-
-
+// lovingBtn.addEventListener("click", () => {
+//   updateCount(lovingBtn);
+// });
